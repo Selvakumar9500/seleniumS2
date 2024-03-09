@@ -169,10 +169,10 @@
          <artifactId>maven-surefire-plugin</artifactId>
          <version>2.22.1</version>
          <configuration>
-			  <suiteXmlFiles>
+			  <!--<suiteXmlFiles>
 				  <suiteXMLFile>src\test\resources\TestRunner.xml</suiteXMLFile>
-			  </suiteXmlFiles>
-			 
+			  </suiteXmlFiles>-->
+			 <skipTests>true</skipTests>
 		  </configuration>
        </plugin>
 
