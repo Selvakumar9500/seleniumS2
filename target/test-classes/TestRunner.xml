@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNGRunner1" verbose="1">
+	
+  <test name="TestCycle-1">
+    <classes >
+       <class name="test.LoginPageTest"/>
+       <class name="utilities.MyListerner"/>
+    </classes>
+  </test>
+ 
+  </suite>
