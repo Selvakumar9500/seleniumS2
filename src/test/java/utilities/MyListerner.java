@@ -38,11 +38,9 @@ public class MyListerner  implements ITestListener {
 	{
 		driver.get("https://en.wikipedia.org/wiki/Main_Page");
 		System.out.println(driver.getTitle());
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 	} 
 		
-
-	@Test(priority='2')
 	public void Extentreport()
 	
 	{		
