@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGRunner1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="TestCycle-2(failed)" verbose="0">
+    <classes>
+      <class name="utilities.MyListerner">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="Closebrowser"/>
+          <include name="Testmethod"/>
+        </methods>
+      </class> <!-- utilities.MyListerner -->
+    </classes>
+  </test> <!-- TestCycle-2(failed) -->
+</suite> <!-- Failed suite [TestNGRunner1] -->
