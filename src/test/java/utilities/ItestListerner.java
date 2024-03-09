@@ -7,6 +7,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -32,7 +33,7 @@ public class ItestListerner implements ITestListener{
 				
 		System.out.println("Test has failed");
 		
-		WebDriver driver = null;
+		WebDriver driver = new ChromeDriver();
 		
 			try {
 				driver = (WebDriver)result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
