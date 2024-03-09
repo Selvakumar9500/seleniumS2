@@ -117,17 +117,17 @@
                     <div class="method-list-content passed suite-TestNGRunner1">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGRunner1" title="utilities.Excelutilites" class="method navigator-link" hash-for-method="register_user(admin, admin)">register_user(admin, admin)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestNGRunner1" title="utilities.Excelutilites" class="method navigator-link" hash-for-method="register_user(mercury, murcury1234)">register_user(mercury, murcury1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-TestNGRunner1" title="utilities.Excelutilites" class="method navigator-link" hash-for-method="register_user(Itest@test.com, Itest@test)">register_user(Itest@test.com, Itest@test)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNGRunner1" title="utilities.Excelutilites" class="method navigator-link" hash-for-method="register_user(admin, admin)">register_user(admin, admin)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -164,7 +164,7 @@
                   </a> <!-- Testmethod -->
                   <span class="method-name">Testmethod</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at utilities.MyListerner.Testmethod(MyListerner.java:41)
+	at utilities.MyListerner.Testmethod(MyListerner.java:46)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 35 stack frames
 </div> <!-- stack-trace -->
@@ -172,38 +172,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-TestNGRunner1-class-failed -->
-          <div class="suite-TestNGRunner1-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">utilities.Excelutilites</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="register_user(mercury, murcury1234)">
-                  </a> <!-- register_user(mercury, murcury1234) -->
-                  <span class="method-name">register_user</span>
-                  <span class="parameters">(mercury,murcury1234)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="register_user(Itest@test.com, Itest@test)">
-                  </a> <!-- register_user(Itest@test.com, Itest@test) -->
-                  <span class="method-name">register_user</span>
-                  <span class="parameters">(Itest@test.com,Itest@test)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="register_user(admin, admin)">
-                  </a> <!-- register_user(admin, admin) -->
-                  <span class="method-name">register_user</span>
-                  <span class="parameters">(admin,admin)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestNGRunner1-class-passed -->
           <div class="suite-TestNGRunner1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -222,6 +190,38 @@
                   <a name="user_login">
                   </a> <!-- user_login -->
                   <span class="method-name">user_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGRunner1-class-passed -->
+          <div class="suite-TestNGRunner1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">utilities.Excelutilites</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_user(admin, admin)">
+                  </a> <!-- register_user(admin, admin) -->
+                  <span class="method-name">register_user</span>
+                  <span class="parameters">(admin,admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_user(mercury, murcury1234)">
+                  </a> <!-- register_user(mercury, murcury1234) -->
+                  <span class="method-name">register_user</span>
+                  <span class="parameters">(mercury,murcury1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register_user(Itest@test.com, Itest@test)">
+                  </a> <!-- register_user(Itest@test.com, Itest@test) -->
+                  <span class="method-name">register_user</span>
+                  <span class="parameters">(Itest@test.com,Itest@test)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -296,34 +296,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'start_browser')
+data.setCell(0, 1, 'user_login')
 data.setCell(0, 2, 'test.LoginPageTest')
-data.setCell(0, 3, 7890);
+data.setCell(0, 3, 5319);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'user_login')
+data.setCell(1, 1, 'start_browser')
 data.setCell(1, 2, 'test.LoginPageTest')
-data.setCell(1, 3, 6190);
+data.setCell(1, 3, 3286);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'register_user')
-data.setCell(2, 2, 'utilities.Excelutilites')
-data.setCell(2, 3, 1851);
+data.setCell(2, 1, 'Testmethod')
+data.setCell(2, 2, 'utilities.MyListerner')
+data.setCell(2, 3, 2925);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'register_user')
 data.setCell(3, 2, 'utilities.Excelutilites')
-data.setCell(3, 3, 1833);
+data.setCell(3, 3, 1884);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'register_user')
 data.setCell(4, 2, 'utilities.Excelutilites')
-data.setCell(4, 3, 1757);
+data.setCell(4, 3, 1852);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Testmethod')
-data.setCell(5, 2, 'utilities.MyListerner')
-data.setCell(5, 3, 1007);
+data.setCell(5, 1, 'register_user')
+data.setCell(5, 2, 'utilities.Excelutilites')
+data.setCell(5, 3, 1794);
 window.suiteTableData['TestNGRunner1']= { tableData: data, tableDiv: 'times-div-TestNGRunner1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-TestNGRunner1">
               </div> <!-- times-div-TestNGRunner1 -->
             </div> <!-- times-div -->
@@ -356,51 +356,51 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">user_login</span>
-                <span class="method-start">7905 ms</span>
+                <span class="method-start">3290 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closebroser</span>
-                <span class="method-start">14095 ms</span>
+                <span class="method-start">8612 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">utilities.MyListerner</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">OpenBrowser</span>
-                <span class="method-start">15276 ms</span>
+                <span class="method-start">9835 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Testmethod</span>
-                <span class="method-start">16498 ms</span>
+                <span class="method-start">10786 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">Closebrowser</span>
-                <span class="method-start">18961 ms</span>
+                <span class="method-start">15144 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">utilities.Excelutilites</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">OpenBrowser</span>
-                <span class="method-start">21564 ms</span>
+                <span class="method-start">17764 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">register_user(mercury, murcury1234)</span>
-                <span class="method-start">24762 ms</span>
+                <span class="method-start">21673 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">register_user(Itest@test.com, Itest@test)</span>
-                <span class="method-start">26519 ms</span>
+                <span class="method-start">23468 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">register_user(admin, admin)</span>
-                <span class="method-start">28352 ms</span>
+                <span class="method-start">25321 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">30204 ms</span>
+                <span class="method-start">27206 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

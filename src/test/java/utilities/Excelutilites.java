@@ -16,11 +16,12 @@ public class Excelutilites {
 	
 	public static WebDriver driver;
 	
-	@BeforeClass public void OpenBrowser() {
-		
+	@BeforeClass 
+	public void OpenBrowser() {
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\selva\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://en.wikipedia.org/w/index.php?returnto=Main+Page&title=Special:UserLogin&centralAuthAutologinTried=1&centralAuthError=Not+centrally+logged+in");
+		driver.get("https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Main+Page");
 		
 	}
 	@Test(dataProvider = "testdata")

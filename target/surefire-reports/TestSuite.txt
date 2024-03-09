@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.988 s <<< FAILURE! - in TestSuite
-Testmethod(utilities.MyListerner)  Time elapsed: 1.01 s  <<< FAILURE!
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.033 s <<< FAILURE! - in TestSuite
+Testmethod(utilities.MyListerner)  Time elapsed: 2.939 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
-	at utilities.MyListerner.Testmethod(MyListerner.java:41)
+	at utilities.MyListerner.Testmethod(MyListerner.java:46)
 

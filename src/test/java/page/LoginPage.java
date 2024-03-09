@@ -5,9 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import base.BaseLink;
-
-public class LoginPage extends BaseLink {
+public class LoginPage  {
 
 	@FindBy(xpath="//*[@id=\"pt-login-2\"]/a/span")
 	WebElement clicklogin;

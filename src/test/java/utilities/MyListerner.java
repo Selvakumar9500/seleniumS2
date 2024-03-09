@@ -19,7 +19,8 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class MyListerner  implements ITestListener {
 	
 			
-	public static WebDriver driver;
+	public WebDriver driver;
+	
 			
 	@BeforeTest
 	
@@ -36,6 +37,10 @@ public class MyListerner  implements ITestListener {
 	public void Testmethod() throws IOException
 	
 	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\selva\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
 		driver.get("https://en.wikipedia.org/wiki/Main_Page");
 		System.out.println(driver.getTitle());
 		Assert.assertTrue(false);
