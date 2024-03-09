@@ -1,25 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-09T11:55:59 IST" name="Surefire suite" finished-at="2024-03-09T11:56:11 IST" duration-ms="11686">
+  <suite started-at="2024-03-09T11:58:38 IST" name="TestNGRunner1" finished-at="2024-03-09T11:59:05 IST" duration-ms="27647">
     <groups>
     </groups>
-    <test started-at="2024-03-09T11:55:59 IST" name="Surefire test" finished-at="2024-03-09T11:56:11 IST" duration-ms="11686">
+    <test started-at="2024-03-09T11:58:38 IST" name="TestCycle-1" finished-at="2024-03-09T11:58:49 IST" duration-ms="11072">
       <class name="test.LoginPageTest">
-        <test-method signature="start_browser()[pri:49, instance:test.LoginPageTest@71b1176b]" started-at="2024-03-09T11:55:59 IST" name="start_browser" finished-at="2024-03-09T11:56:05 IST" duration-ms="5112" status="PASS">
+        <test-method signature="start_browser()[pri:49, instance:test.LoginPageTest@402bba4f]" started-at="2024-03-09T11:58:38 IST" name="start_browser" finished-at="2024-03-09T11:58:42 IST" duration-ms="4436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start_browser -->
-        <test-method signature="user_login()[pri:50, instance:test.LoginPageTest@71b1176b]" started-at="2024-03-09T11:56:05 IST" name="user_login" finished-at="2024-03-09T11:56:10 IST" duration-ms="5348" status="PASS">
+        <test-method signature="user_login()[pri:50, instance:test.LoginPageTest@402bba4f]" started-at="2024-03-09T11:58:42 IST" name="user_login" finished-at="2024-03-09T11:58:48 IST" duration-ms="5374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_login -->
-        <test-method is-config="true" signature="closebroser()[pri:0, instance:test.LoginPageTest@71b1176b]" started-at="2024-03-09T11:56:10 IST" name="closebroser" finished-at="2024-03-09T11:56:11 IST" duration-ms="1182" status="PASS">
+        <test-method is-config="true" signature="closebroser()[pri:0, instance:test.LoginPageTest@402bba4f]" started-at="2024-03-09T11:58:48 IST" name="closebroser" finished-at="2024-03-09T11:58:49 IST" duration-ms="1214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebroser -->
       </class> <!-- test.LoginPageTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- TestCycle-1 -->
+    <test started-at="2024-03-09T11:58:49 IST" name="TestCycle-2" finished-at="2024-03-09T11:58:53 IST" duration-ms="4557">
+      <class name="utilities.MyListerner">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:utilities.MyListerner@747ddf94]" started-at="2024-03-09T11:58:49 IST" name="OpenBrowser" finished-at="2024-03-09T11:58:50 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Testmethod()[pri:49, instance:utilities.MyListerner@747ddf94]" started-at="2024-03-09T11:58:50 IST" name="Testmethod" finished-at="2024-03-09T11:58:51 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testmethod -->
+        <test-method is-config="true" signature="Closebrowser()[pri:0, instance:utilities.MyListerner@747ddf94]" started-at="2024-03-09T11:58:51 IST" name="Closebrowser" finished-at="2024-03-09T11:58:53 IST" duration-ms="2612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- utilities.MyListerner -->
+    </test> <!-- TestCycle-2 -->
+    <test started-at="2024-03-09T11:58:53 IST" name="TestCycle-3" finished-at="2024-03-09T11:59:05 IST" duration-ms="11981">
+      <class name="utilities.Excelutilites">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:utilities.Excelutilites@4d5d943d]" started-at="2024-03-09T11:58:53 IST" name="OpenBrowser" finished-at="2024-03-09T11:58:57 IST" duration-ms="3497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="register_user(java.lang.String,java.lang.String)[pri:0, instance:utilities.Excelutilites@4d5d943d]" started-at="2024-03-09T11:58:57 IST" name="register_user" data-provider="testdata" finished-at="2024-03-09T11:59:01 IST" duration-ms="3416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[murcury1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method signature="register_user(java.lang.String,java.lang.String)[pri:0, instance:utilities.Excelutilites@4d5d943d]" started-at="2024-03-09T11:59:01 IST" name="register_user" data-provider="testdata" finished-at="2024-03-09T11:59:04 IST" duration-ms="2989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Itest@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Itest@test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method signature="register_user(java.lang.String,java.lang.String)[pri:0, instance:utilities.Excelutilites@4d5d943d]" started-at="2024-03-09T11:59:04 IST" name="register_user" data-provider="testdata" finished-at="2024-03-09T11:59:05 IST" duration-ms="1801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:utilities.Excelutilites@4d5d943d]" started-at="2024-03-09T11:59:05 IST" name="CloseBrowser" finished-at="2024-03-09T11:59:05 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- utilities.Excelutilites -->
+    </test> <!-- TestCycle-3 -->
+  </suite> <!-- TestNGRunner1 -->
 </testng-results>

@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNGRunner1" verbose="1">
+	
+  <test name="TestCycle-1">
+    <classes >
+       <class name="test.LoginPageTest"/>
+
+    </classes>
+  </test>
+  
+    <test name="TestCycle-2">
+    <classes >
+       <class name="utilities.MyListerner"/>
+       
+    </classes>
+  </test>
+  
+    <test name="TestCycle-3">
+    <classes >
+      
+       <class name="utilities.Excelutilites"/>
+    </classes>
+  </test>
+  
+  
+ 
+  </suite>
