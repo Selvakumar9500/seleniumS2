@@ -5,8 +5,24 @@
   <test name="TestCycle-1">
     <classes >
        <class name="test.LoginPageTest"/>
-       <class name="utilities.MyListerner"/>
+      
     </classes>
   </test>
+  
+    <test name="TestCycle-2">
+    <classes >
+       <class name="utilities.MyListerner"/>
+       
+    </classes>
+  </test>
+  
+    <test name="TestCycle-3">
+    <classes >
+      
+       <class name="utilities.Excelutilites"/>
+    </classes>
+  </test>
+  
+  
  
   </suite>
