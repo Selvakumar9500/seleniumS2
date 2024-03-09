@@ -5,8 +5,7 @@
     <classes>
       <class name="utilities.MyListerner">
         <methods>
-          <include name="OpenBrowser"/>
-          <include name="Testmethod"/>
+          <include name="openBrowser"/>
           <include name="Closebrowser"/>
         </methods>
       </class> <!-- utilities.MyListerner -->

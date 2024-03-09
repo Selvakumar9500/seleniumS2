@@ -35,7 +35,7 @@ public class ItestListerner implements ITestListener{
 		WebDriver driver = null;
 		
 			try {
-				driver = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
+				driver = (WebDriver)result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
 			} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
