@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-09T10:29:22 IST" name="TestNGRunner1" finished-at="2024-03-09T10:29:46 IST" duration-ms="23924">
+  <suite started-at="2024-03-09T11:04:16 IST" name="TestNGRunner1" finished-at="2024-03-09T11:04:44 IST" duration-ms="27954">
     <groups>
     </groups>
-    <test started-at="2024-03-09T10:29:22 IST" name="TestCycle-1" finished-at="2024-03-09T10:29:32 IST" duration-ms="9910">
+    <test started-at="2024-03-09T11:04:16 IST" name="TestCycle-1" finished-at="2024-03-09T11:04:28 IST" duration-ms="11301">
       <class name="test.LoginPageTest">
-        <test-method signature="start_browser()[pri:49, instance:test.LoginPageTest@2cd76f31]" started-at="2024-03-09T10:29:22 IST" name="start_browser" finished-at="2024-03-09T10:29:26 IST" duration-ms="4024" status="PASS">
+        <test-method signature="start_browser()[pri:49, instance:test.LoginPageTest@2cd76f31]" started-at="2024-03-09T11:04:16 IST" name="start_browser" finished-at="2024-03-09T11:04:20 IST" duration-ms="4192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start_browser -->
-        <test-method signature="user_login()[pri:50, instance:test.LoginPageTest@2cd76f31]" started-at="2024-03-09T10:29:26 IST" name="user_login" finished-at="2024-03-09T10:29:31 IST" duration-ms="4679" status="PASS">
+        <test-method signature="user_login()[pri:50, instance:test.LoginPageTest@2cd76f31]" started-at="2024-03-09T11:04:20 IST" name="user_login" finished-at="2024-03-09T11:04:26 IST" duration-ms="5835" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_login -->
-        <test-method is-config="true" signature="closebroser()[pri:0, instance:test.LoginPageTest@2cd76f31]" started-at="2024-03-09T10:29:31 IST" name="closebroser" finished-at="2024-03-09T10:29:32 IST" duration-ms="1166" status="PASS">
+        <test-method is-config="true" signature="closebroser()[pri:0, instance:test.LoginPageTest@2cd76f31]" started-at="2024-03-09T11:04:26 IST" name="closebroser" finished-at="2024-03-09T11:04:28 IST" duration-ms="1151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebroser -->
       </class> <!-- test.LoginPageTest -->
     </test> <!-- TestCycle-1 -->
-    <test started-at="2024-03-09T10:29:32 IST" name="TestCycle-2" finished-at="2024-03-09T10:29:38 IST" duration-ms="6042">
+    <test started-at="2024-03-09T11:04:28 IST" name="TestCycle-2" finished-at="2024-03-09T11:04:33 IST" duration-ms="5600">
       <class name="utilities.MyListerner">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:utilities.MyListerner@7b02881e]" started-at="2024-03-09T10:29:32 IST" name="OpenBrowser" finished-at="2024-03-09T10:29:33 IST" duration-ms="1114" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:utilities.MyListerner@5f8edcc5]" started-at="2024-03-09T11:04:28 IST" name="OpenBrowser" finished-at="2024-03-09T11:04:29 IST" duration-ms="1302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="Testmethod()[pri:49, instance:utilities.MyListerner@7b02881e]" started-at="2024-03-09T10:29:33 IST" name="Testmethod" finished-at="2024-03-09T10:29:35 IST" duration-ms="1847" status="FAIL">
+        <test-method signature="Testmethod()[pri:49, instance:utilities.MyListerner@5f8edcc5]" started-at="2024-03-09T11:04:29 IST" name="Testmethod" finished-at="2024-03-09T11:04:30 IST" duration-ms="1257" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -73,19 +73,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testmethod -->
-        <test-method is-config="true" signature="Closebrowser()[pri:0, instance:utilities.MyListerner@7b02881e]" started-at="2024-03-09T10:29:36 IST" name="Closebrowser" finished-at="2024-03-09T10:29:38 IST" duration-ms="2805" status="PASS">
+        <test-method is-config="true" signature="Closebrowser()[pri:0, instance:utilities.MyListerner@5f8edcc5]" started-at="2024-03-09T11:04:31 IST" name="Closebrowser" finished-at="2024-03-09T11:04:33 IST" duration-ms="2618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Closebrowser -->
       </class> <!-- utilities.MyListerner -->
     </test> <!-- TestCycle-2 -->
-    <test started-at="2024-03-09T10:29:38 IST" name="TestCycle-3" finished-at="2024-03-09T10:29:46 IST" duration-ms="7916">
+    <test started-at="2024-03-09T11:04:33 IST" name="TestCycle-3" finished-at="2024-03-09T11:04:44 IST" duration-ms="10966">
       <class name="utilities.Excelutilites">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:utilities.Excelutilites@4470f8a6]" started-at="2024-03-09T10:29:38 IST" name="OpenBrowser" finished-at="2024-03-09T10:29:41 IST" duration-ms="2226" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:utilities.Excelutilites@484970b0]" started-at="2024-03-09T11:04:33 IST" name="OpenBrowser" finished-at="2024-03-09T11:04:36 IST" duration-ms="2392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="register_user(java.lang.String,java.lang.String)[pri:0, instance:utilities.Excelutilites@4470f8a6]" started-at="2024-03-09T10:29:41 IST" name="register_user" data-provider="testdata" finished-at="2024-03-09T10:29:43 IST" duration-ms="1802" status="PASS">
+        <test-method signature="register_user(java.lang.String,java.lang.String)[pri:0, instance:utilities.Excelutilites@484970b0]" started-at="2024-03-09T11:04:36 IST" name="register_user" data-provider="testdata" finished-at="2024-03-09T11:04:39 IST" duration-ms="3596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register_user -->
-        <test-method signature="register_user(java.lang.String,java.lang.String)[pri:0, instance:utilities.Excelutilites@4470f8a6]" started-at="2024-03-09T10:29:43 IST" name="register_user" data-provider="testdata" finished-at="2024-03-09T10:29:44 IST" duration-ms="1802" status="PASS">
+        <test-method signature="register_user(java.lang.String,java.lang.String)[pri:0, instance:utilities.Excelutilites@484970b0]" started-at="2024-03-09T11:04:39 IST" name="register_user" data-provider="testdata" finished-at="2024-03-09T11:04:42 IST" duration-ms="2902" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register_user -->
-        <test-method signature="register_user(java.lang.String,java.lang.String)[pri:0, instance:utilities.Excelutilites@4470f8a6]" started-at="2024-03-09T10:29:44 IST" name="register_user" data-provider="testdata" finished-at="2024-03-09T10:29:46 IST" duration-ms="1763" status="PASS">
+        <test-method signature="register_user(java.lang.String,java.lang.String)[pri:0, instance:utilities.Excelutilites@484970b0]" started-at="2024-03-09T11:04:42 IST" name="register_user" data-provider="testdata" finished-at="2024-03-09T11:04:44 IST" duration-ms="1828" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,7 +133,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register_user -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:utilities.Excelutilites@4470f8a6]" started-at="2024-03-09T10:29:46 IST" name="CloseBrowser" finished-at="2024-03-09T10:29:46 IST" duration-ms="152" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:utilities.Excelutilites@484970b0]" started-at="2024-03-09T11:04:44 IST" name="CloseBrowser" finished-at="2024-03-09T11:04:44 IST" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
