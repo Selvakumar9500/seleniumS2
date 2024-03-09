@@ -170,7 +170,7 @@
          <version>2.22.1</version>
          <configuration>
 			  <suiteXmlFiles>
-				  <suiteXMLFile>src\test\resources\TestRunner2.xml</suiteXMLFile>
+				  <suiteXMLFile>src\test\resources\TestRunner.xml</suiteXMLFile>
 			  </suiteXmlFiles>
 			 
 		  </configuration>
